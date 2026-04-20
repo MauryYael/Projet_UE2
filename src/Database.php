@@ -8,9 +8,9 @@ class Database {
     private static ?Database $_instance = null;
     private ?PDO $pdo = null;
     private $host = "localhost";
-    private $db_name = "roni4736_maury_yael_ue2";
-    private $username = "roni4736_maury_yael";
-    private $password = "]zImy?q@EnX^";
+    private $db_name = "private";
+    private $username = "private";
+    private $password = "private";
 
     private function __construct() {
         try {
